@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "zag";
+    src: url(../font/Zag_Regular.otf);
+}
+
+body{
+	font-family:"zag";
+	font-size:18px;
+}
+
+a{
+	text-decoration:none;
+	color:#000000;
+}
+
+.header{
+	
+}
+
+#outer{
+	height:100%;
+	width:100%;
+	display:table;
+	vertical-align:middle;
+}
+#container {
+	text-align: center;
+	position:relative;
+	vertical-align:middle;
+	display:table-cell;
+	height: 615px;
+	overflow:hidden;
+}
+#inner {
+	width: 980px;
+	height: 615px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+.main{
+	width:980px;
+	margin:auto;	
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height:600px;
+}
+
+#buttons-div{
+	width:100%;
+}
+
+#prev{
+	float:left;
+}
+
+
+#next{
+	float:right;
+}
+
+.middle{
+	margin:auto;
+	width:966px;
+}
+
+.contact{
+	font-size:16px;
+}
+
+.contact .title{
+	font-size:18px;
+}
+
+.contact .error{
+	color:#FF0000;
+}
+
+#form-contact div{
+	margin-top:7px;
+}
+
+#form-contact .text{
+	width:250px;
+}
+
+#form-contact .date{
+	width:100px;
+}
+
+#form-contact .textarea{
+	width:350px;
+	height:50px;
+}
+
+#form-contact .warning{
+	font-size:14px;
+	margin-left:5px;
+}
+
+table a{
+	vertical-align:top;
+	font-size:18px;
+}
+
+.footer{
+	text-align:center;
+	font-size:17px;
+	letter-spacing:0.75;
+}
